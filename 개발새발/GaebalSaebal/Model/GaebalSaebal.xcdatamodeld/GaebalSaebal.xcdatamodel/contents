@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="bojNumber" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="bojTitle" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="category" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="code" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="eventNumber" optional="YES" attributeType="String"/>
+        <attribute name="gitDate" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="gitRepoName" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="gitTitle" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="gitType" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="recordDate" optional="YES" attributeType="String"/>
+        <attribute name="tag" optional="YES" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-54" positionY="81" width="128" height="58"/>
+        <element name="Record" positionX="235.79296875" positionY="-17.77734375" width="128" height="224"/>
+    </elements>
 </model>
